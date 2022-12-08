@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: '5 minute tutorial',
-                to: '/tutorial/intro',
+                to: '/docs/tutorials/minute_kickstart/create_new_flow',
               },
               {
                 label: 'Docs',
