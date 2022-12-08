@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.6.0.8-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="61.09pt" height="32.045pt" viewBox="1351.75 -1043.05 61.09 32.045">
+ <defs>
+  <style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?family=Open Sans:400,600');</style>
+ </defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+  <rect x="1351.75" y="1011.001" width="28.128" height="32.044" fill="#411fe0" stroke="none" stroke-linejoin="miter"/>
+  <text xml:space="preserve" transform="translate(1353.43 1015.4) scale(1 -1)" kerning="auto" font-weight="bold" font-size="32.898" fill="#ffffff" font-family="Georgia" stroke-linejoin="round" stroke-linecap="round" stroke="none" stroke-width="0.825"><tspan x="0" y="0">A</tspan></text>
+  <g id="Group" fill-rule="nonzero" stroke-linejoin="round" stroke-linecap="round" stroke="none" stroke-width="0.271" fill="#000000">
+   <g id="Group_1">
+    <path d="M 1390.85,1018.19 C 1390.51,1018.53 1390.34,1019.17 1390.34,1020.13 L 1390.32,1024.57 L 1385.88,1024.59 C 1384.92,1024.59 1384.28,1024.76 1383.94,1025.1 C 1383.6,1025.44 1383.43,1026.09 1383.44,1027.05 C 1383.45,1028.02 1383.61,1028.66 1383.94,1028.99 C 1384.26,1029.31 1384.9,1029.47 1385.87,1029.47 L 1390.3,1029.45 L 1390.26,1033.88 C 1390.26,1034.83 1390.42,1035.48 1390.76,1035.8 C 1391.09,1036.14 1391.74,1036.31 1392.69,1036.31 C 1393.65,1036.31 1394.3,1036.14 1394.63,1035.8 C 1394.97,1035.46 1395.14,1034.82 1395.14,1033.86 L 1395.16,1029.42 L 1399.61,1029.39 C 1400.56,1029.39 1401.21,1029.22 1401.55,1028.88 C 1401.88,1028.55 1402.05,1027.91 1402.05,1026.95 C 1402.04,1026.01 1401.87,1025.36 1401.54,1025.03 C 1401.2,1024.7 1400.56,1024.54 1399.61,1024.54 L 1395.2,1024.55 L 1395.2,1020.13 C 1395.2,1019.17 1395.04,1018.53 1394.72,1018.21 C 1394.39,1017.88 1393.75,1017.72 1392.79,1017.7 C 1391.84,1017.69 1391.19,1017.85 1390.85,1018.19 Z" marker-start="none" marker-end="none"/>
+   </g>
+  </g>
+  <rect x="1403.541" y="1017.462" width="9.299" height="20.999" rx="2.9698" ry="2.9698" fill="#ffffff" stroke-linejoin="miter" stroke="none"/>
+ </g>
+</svg>

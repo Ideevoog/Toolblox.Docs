@@ -1,0 +1,66 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #411fe0;
+  --ifm-color-primary-dark: #3113b9;
+  --ifm-color-primary-darker: #261086;
+  --ifm-color-primary-darkest: #11005e;
+  --ifm-color-primary-light: #5230eb;
+  --ifm-color-primary-lighter: #5b3de2;
+  --ifm-color-primary-lightest: #694ee2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+.button{
+  border:1px solid #411fe0;
+  border-radius: 50px;
+  background-color: #411fe0;
+  color: white;
+  
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.07999999821186066);
+  box-sizing: border-box;
+}
+.button.button--secondary{
+  border:1px solid black;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.07999999821186066);
+  box-sizing: border-box;
+}
+.button.button--lg
+{
+  padding: 15px 40px ;
+
+}
+header .container{
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.footer--dark{
+  --ifm-footer-background-color: #411fe0;
+}
+.hero.hero--primary{
+  background-color: #f7fdff;
+}
+.hero__subtitle{
+  color:black;
+}

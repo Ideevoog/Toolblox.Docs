@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.6.0.8-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="131.076pt" height="131.076pt" viewBox="1670.99 -1376.1 131.076 131.076">
+ <defs>
+  <style type="text/css">@import url('https://themes.googleusercontent.com/fonts/css?family=Open Sans:400,600');</style>
+ </defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+  <ellipse rx="65.547" ry="65.547" transform="translate(1736.52 1310.57) rotate(-137.898)" stroke="none" stroke-linejoin="miter" fill="#f7fdff"/>
+  <ellipse rx="55.584" ry="55.584" transform="translate(1733.21 1317.48) rotate(-137.898)" fill="#cdf09d" stroke="none" stroke-linejoin="miter"/>
+  <ellipse rx="55.584" ry="55.584" transform="translate(1739.22 1308.11) rotate(-137.898)" fill="#faf5b3" stroke="none" stroke-linejoin="miter"/>
+  <rect x="-8.676" y="-7.272" width="17.353" height="14.545" transform="translate(1708.79 1316.56) rotate(28.4677) skewX(-33.0563)" fill="#faf5b3" stroke-width="2.236" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0"/>
+  <path d="M 1693.49,1316.42 L 1693.78,1299.2 L 1709.02,1290.27 L 1709.06,1308.13" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <path d="M 1724.65,1316.42 L 1724.23,1299.2 L 1708.91,1290.27" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <rect x="-8.677" y="-7.273" width="17.354" height="14.546" transform="translate(1737 1336.65) rotate(28.4759) skewX(-33.0481)" fill="#faf5b3" stroke-width="2.236" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0"/>
+  <path d="M 1721.7,1336.51 L 1721.99,1319.3 L 1737.23,1310.36 L 1737.27,1328.23" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <path d="M 1752.86,1336.51 L 1752.43,1319.3 L 1737.12,1310.36" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <rect x="-8.676" y="-7.272" width="17.353" height="14.545" transform="translate(1737 1295.94) rotate(28.4677) skewX(-33.0563)" fill="#faf5b3" stroke-width="2.236" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0"/>
+  <path d="M 1721.7,1295.8 L 1721.99,1278.59 L 1737.23,1269.66 L 1737.27,1287.52" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <path d="M 1752.86,1295.8 L 1752.43,1278.59 L 1737.12,1269.66" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <rect x="-8.676" y="-7.272" width="17.353" height="14.545" transform="translate(1765.47 1316.56) rotate(28.4677) skewX(-33.0563)" fill="#faf5b3" stroke-width="2.236" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0"/>
+  <path d="M 1750.18,1316.42 L 1750.47,1299.2 L 1765.71,1290.27 L 1765.74,1308.13" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <path d="M 1781.33,1316.42 L 1780.91,1299.2 L 1765.6,1290.27" fill="none" stroke-width="2.236" stroke-linecap="round" stroke-linejoin="round" stroke="#411fe0"/>
+  <path d="M 1715.82,1301.92 C 1714.83,1304.06 1715.93,1305.52 1717.2,1305.91 C 1717.79,1306.1 1718.47,1306.06 1719.12,1305.85 L 1729.08,1299.69 L 1724.32,1297.16 L 1715.82,1301.92 Z" stroke-width="2.236" fill="#411fe0" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0" marker-start="none" marker-end="none"/>
+  <path d="M 1758.64,1301.92 C 1759.63,1304.06 1758.54,1305.52 1757.27,1305.91 C 1756.67,1306.1 1756,1306.06 1755.35,1305.85 L 1745.39,1299.69 L 1750.15,1297.16 L 1758.64,1301.92 Z" stroke-width="2.236" fill="#411fe0" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0" marker-start="none" marker-end="none"/>
+  <path d="M 1728.96,1323.4 C 1729.95,1325.54 1728.86,1327 1727.59,1327.39 C 1726.99,1327.58 1726.32,1327.53 1725.67,1327.32 L 1715.71,1321.17 L 1720.47,1318.63 L 1728.96,1323.4 Z" stroke-width="2.236" fill="#411fe0" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0" marker-start="none" marker-end="none"/>
+  <path d="M 1745.5,1323.4 C 1744.51,1325.54 1745.61,1327 1746.88,1327.39 C 1747.48,1327.58 1748.15,1327.53 1748.8,1327.32 L 1758.76,1321.17 L 1754,1318.63 L 1745.5,1323.4 Z" stroke-width="2.236" fill="#411fe0" stroke-linejoin="round" stroke-linecap="round" stroke="#411fe0" marker-start="none" marker-end="none"/>
+ </g>
+</svg>
