@@ -89,10 +89,10 @@ First, add these 2 **states** by clicking the <img src="https://raw.githubuserco
 * **For sale**
 * **Owned**
 
-### Mint transition
+### Add Mint transition
 
 Add an initial **transition** by clicking the first <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button: ![Click button to add the inital transition](/img/screens/create_workflow_3.png) 
-* **Name** of the transition to be '**Mint**'
+* **Name**: '**Mint**'
 * **Parameters**: **Name**, **Image**, **Price**
 * **Access**: **Restricted** to **Current owner**.
 
@@ -100,7 +100,7 @@ Add an initial **transition** by clicking the first <img src="https://raw.github
 Setting **Access** to **Current owner** means if it has not been set on the object (which it hasn't yet for the initial Mint transition), it will be set. Whoever calls the action **Mint** will be the **Current owner** of our Object!
 :::
 
-### Buy transition
+### Add Buy transition
 
 Add a second transition between the states '**For sale**' and '**Owned**' called '**Buy**'
 * **Name**: '**Buy**'
@@ -113,13 +113,12 @@ Add a second transition between the states '**For sale**' and '**Owned**' called
 In this example we used the **Previous owner** as a transient (temporary) variable. The idea is that before the payment step is executed we set up the **Previous owner** so that we can use it in the next, payment step. This is needed because the caller of the method is set to **Current owner**.
 :::
 
-### Summary
-
-:::tip
+### Optional: Add Resell transition
 
 Try to add a third transition called 'Resell' going from 'Owned' back to 'For sale'. Hint: click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> on top of 'Owned' and change the target status to be 'For sale' instead. Add Price parameter and don't forget to restrict Access to 'Current owner'!
 
-:::
+
+### Summary
 
 Thats it, the workflow is now done! This is what it should look like if you added the optional third transition as well:
 ![Buy transition config](/img/screens/create_workflow_6.png) 
