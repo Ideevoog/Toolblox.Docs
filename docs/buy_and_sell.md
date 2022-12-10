@@ -56,7 +56,14 @@ Choose the **Workflow name** wisely. It needs to be globally unique because you 
   Your browser does not support the video tag.
 </video>
 
-* Set the **Object name**
+:::info
+
+Object is the central item which is managed by the smart contract. Objects have attributes - for example the object 'Car' might have attributes such as Price, Make, Model, Speed and Color.
+
+:::
+
+
+* Set **Object name** to 'Image'
 * Choose an icon of your preference to represent your item.
 * Add '**Price**' and '**Image**' attributes
 * Add two custom attributes
@@ -88,9 +95,6 @@ Add an initial **transition** by clicking the first <img src="https://raw.github
 * **Name** of the transition to be '**Mint**'
 * **Parameters**: **Name**, **Image**, **Price**
 * **Access**: **Restricted** to **Current owner**.
-
-In the end the setup should look like this:
-![Buy transition config](/img/screens/create_workflow_buy.png) 
 
 :::note
 Setting **Access** to **Current owner** means if it has not been set on the object (which it hasn't yet for the initial Mint transition), it will be set. Whoever calls the action **Mint** will be the **Current owner** of our Object!
