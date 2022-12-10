@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Create new smart contract - 5min ⏱️
+            Smart contract in 5mins ⏱️
           </Link>
         </div>
       </div>

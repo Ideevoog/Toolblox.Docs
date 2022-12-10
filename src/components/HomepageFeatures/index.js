@@ -4,20 +4,6 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Smart contract in 5 minutes',
-    Svg: require('@site/static/img/academy1.svg').default,
-    description: (
-      <>
-        Tutorial to build and deploy a smart contract in 5 minutes.
-        <br/>
-        <br/>
-        <a href="/docs/tutorials/minute_kickstart/create_new_flow" class="button button--secondary">
-            Start tutorial
-        </a>
-      </>
-    ),
-  },
-  {
     title: 'Video walkthroughs',
     Svg: require('@site/static/img/academy2.svg').default,
     description: (
@@ -39,6 +25,20 @@ const FeatureList = [
         <br/>
         <a href="/docs/intro" class="button button--secondary">
             Open docs
+        </a>
+      </>
+    ),
+  },
+  {
+    title: 'Smart contract in 5 minutes',
+    Svg: require('@site/static/img/academy1.svg').default,
+    description: (
+      <>
+        Tutorial to build and deploy a smart contract in 5 minutes.
+        <br/>
+        <br/>
+        <a href="/docs/tutorials/minute_kickstart/create_new_flow" class="button button--secondary">
+            Start tutorial
         </a>
       </>
     ),

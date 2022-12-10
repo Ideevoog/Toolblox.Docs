@@ -7,8 +7,34 @@ tags:
   - Getting started
 ---
 
-# No-code smart contract builder
+# What is Toolblox?
+
+Toolblox is a no-code smart contract builder, specifically designed to manage lifecycles of digital twins. Digital twins are digital representations of real-world business objects such as documents, offers, parcels, loans, requests, harvests etc.
 
 # Workflows
 
-## Workflow components
+The [Smart contract builder](/docs/smart-contract-builder/introduction) allows to compose workflows which are then compiled into smart-contracts and deployed on a selected blockchain network.
+
+Each workflow consist of a definition of an [item](smart-contract-builder/items), list of [item states](smart-contract-builder/states) and [state transitions](smart-contract-builder/transitions). The workflow is represented visually in the editor as a state diagram.
+
+:::note
+
+A state-diagram based workflow is something which has been found across the industry to naturally fit the blockchain programming model. Here you can see a [case-study by the Hyperledger Foundation](https://hyperledger-fabric.readthedocs.io/it/latest/developapps/scenario.html) detailing the sale of the *item* 'commercial paper' with its *states* and state *transitions* mapped out in a format suitable for a self-executing smart contract![Image](https://github.com/hyperledger/fabric-docs-i18n/raw/release-2.2/docs/locale/it_IT/source/developapps/develop.diagram.4.png)
+
+:::
+
+The PaperNet example depicted above would look like this in the Smart contract builder of Toolblox:
+
+![PaperNet example in Toolblox](/img/screens/papernet_example.png)
+
+# DApps
+
+The [DApp builder](/docs/dapp_builder) allows to create fully functioning and custom-themed public-facing web sites. DApp is a 'decenteralized application': while it might look like a normal web site, all inputs, validation and payments are handled by a smart contract deployed. In the case of Toolblox, the underlying data storage and functionality are delegated to the workflows. 
+
+Here you can see an example DApp which uses the above PaperNet workflow as its underlying set of rules and storage:
+
+![PaperNet application example in Toolblox](/img/screens/papernet_dapp1.png)
+
+And here is the same DApp running for the end user:
+
+![DApp on the public web](/img/screens/papernet_dapp2.png)
