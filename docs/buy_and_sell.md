@@ -14,7 +14,7 @@ Before we start it is required acquire the neccessary access.
 
 In order to create and deploy smart contracts you need to [create an account and log-into Toolblox](https://app.toolblox.net/authentication/login?returnUrl=https%3A%2F%2Fapp.toolblox.net%2F).
 
-### Install a wallet
+### Install Metamask
 
 To deploy a new smart contract for everyone to use and to use it, you need a wallet. In Tooblox you have 2 options:
 * [Install Metamask](https://metamask.io/download/) if you wish to use these blockchains: Aurora, Avalanche, Ethereum, Evmos or Polygon.
@@ -22,75 +22,120 @@ To deploy a new smart contract for everyone to use and to use it, you need a wal
 
 **For our test case, please install the Metamask add-on.**
 
-### Get some test-coins for deployment
+### Get some Aurora test-coins
 
 In order to deploy and use smart contracts you need to pay for 'gas' - these are the rules of blockchain. For testing purpose each blockchain has a test version called testnet - it looks and behaves like the real one, except the currency which moves on it is *fake test money*.
 
 In order to test our smart contract you would need to use a **faucet** to get a little bit of the fake test money. It is basically a free service which just sends fake test money to an account you desire.
 
-In case of the Near blockchain every test account is already loaded with some NEAR, in others please use their recommended faucet.
-
 **For our test case, please use the Aurora's faucet which can be found here: https://aurora.dev/faucet.**
 
-## Create Workflow
+## Step 1. Create Workflow
 
-1. Go to https://app.toolblox.net/ and click on **Create flow**.
-1. In the **Workflow name** input write a unique name for your workflow, for example "**My unique workflow name**". It needs to be globally unique because you can access it later from the url app.toolblox.net/**my_unique_workflow_name**.
-1. Choose a layout by selecting the **workflow template**:
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+  <source src="/vid/step0.mp4" type="video/mp4"></source>
+   <img src="/img/screens/create_workflow_1.png" title="Your browser does not support the <video> tag"></img>
+  Your browser does not support the video tag.
+</video>
+
+1. Go to https://app.toolblox.net/ and click on 'Create flow'.
+1. Set **name**
+1. Choose **workflow template**:
    * **List view** displays a simple grid of your items while
    * **Grid view** displays a thumbnail view - choose this layout in case your item has a photo or image to display.
 
-This is how it will look like as an example:
+:::tip
+Choose the **Workflow name** wisely. It needs to be globally unique because you can access it publicly later from the url app.*toolblox.net/my_unique_workflow_name*. 
+:::
 
-![Create workflow step](/img/screens/create_workflow_1.png)
+## Step 2. Define the object
 
-## Define the object
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+  <source src="/vid/step1.mp4" type="video/mp4"></source>
+   <img src="/img/screens/create_workflow_2.png" title="Your browser does not support the <video> tag"></img>
+  Your browser does not support the video tag.
+</video>
 
-Next we define the object and its properties. For example an object 'car' might have property 'price', 'color', 'make' and 'owner'. Some properties are built-in and cannot be removed: Name, Status (the current state), and Id (identificator).
-
-In this example lets add a few to sell NFTs
-* Set the **Object name** to be '**Image**' for example.
+* Set the **Object name**
 * Choose an icon of your preference to represent your item.
-* Under **Object attributes** tick '**Price**' and '**Image**'
-* Under **Add custom attribute** add a new one called '**Current owner**' with type '**User**'
-* Add another '**User**' attribute called '**Previous owner**' but set it to '**Transient**'. A *transient* attribute is something which will not get saved - it is marely a helper variable during the transition.
-     ![Define the object attributes](/img/screens/create_workflow_transient.png)
+* Add '**Price**' and '**Image**' attributes
+* Add two custom attributes
+    * '**Current owner**' with type **User**
+    * '**Previous owner**' with type **User**. Additionally mark it as **transient**.
+    
+:::note
+A **transient** attribute is something which will not get saved - it is marely a helper variable during the transition.
+![Define the object attributes](/img/screens/create_workflow_transient.png)
+:::
 
-In the end you should end up with something like this:
+## Step 3. Compose the flow
 
-![Define the object attributes](/img/screens/create_workflow_2.png)
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+  <source src="/vid/step3.mp4" type="video/mp4"></source>
+   <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
+  Your browser does not support the video tag.
+</video>
 
-## Create the flow
+### Add states
 
-* Add these 2 **states** by clicking the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button. 
-   * **For sale**
-   * **Owned**
-* Add an initial **transition** by clicking the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button on the transition line leading into the '**For sale**' state:
-    * ![Click button to add the inital transition](/img/screens/create_workflow_3.png) 
-    * Set the **Name** of the transition to be '**Mint**'
-    * Click **Edit** on the **Parameters** step and add **Name**, **Image**, **Price**
-    * Under the **Access** step set it to be **Restricted** to **Current owner**. This means that if the **Current owner** of the Object has not been set (which it hasn't yet for the initial transition), it will be set by this definition. Whoever calls the action **Mint** will be the **Current owner** of our Object.
-    * In the end the setup should look like this:
-    ![Buy transition config](/img/screens/create_workflow_buy.png) 
-* Add a second transition between the states '**For sale**' and '**Owned**' called '**Buy**'
-    * Set the name of the transition to '**Buy**'
-    * In the **Calculations** step add the following two lines. The idea is that before the payment step is executed we set up the temporary variable **Previous owner** so that we can use it in the next, payment step.
-        * Set **Previous owner** with value from **Current owner**
-        * Set **Current owner** up with value from **caller**. This ensures that whoever is the new buyer gets to be the **Current owner**.
-    * Add a **Payment** step with the following configuratin **from caller** to **Previous owner** with the value of **Price**
-    * In the end the setup should look like this:
-    ![Buy transition config](/img/screens/create_workflow_buy.png) 
-* Now add the final third transition from **Owned** back to **For sale** called '**Resell**'. To add a custom transition click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button on top of **Owned** and then change the self-transition into a state transition by changing the **To state** to **For sale**: ![Buy transition config](/img/screens/create_workflow_5.png)
-    * Additionally add a parameter **Price** so that the current owner can set a new price.
-    * And set the **Access** step to be **Restricted** to **Current owner**
-    * In the end the setup should look like this:
-    ![Buy transition config](/img/screens/create_workflow_resell.png) 
+First, add these 2 **states** by clicking the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button. 
+* **For sale**
+* **Owned**
 
-Thats it, the workflow is now done! Visually this is what we did:
+### Mint transition
+
+Add an initial **transition** by clicking the first <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button: ![Click button to add the inital transition](/img/screens/create_workflow_3.png) 
+* **Name** of the transition to be '**Mint**'
+* **Parameters**: **Name**, **Image**, **Price**
+* **Access**: **Restricted** to **Current owner**.
+
+In the end the setup should look like this:
+![Buy transition config](/img/screens/create_workflow_buy.png) 
+
+:::note
+Setting **Access** to **Current owner** means if it has not been set on the object (which it hasn't yet for the initial Mint transition), it will be set. Whoever calls the action **Mint** will be the **Current owner** of our Object!
+:::
+
+### Buy transition
+
+Add a second transition between the states '**For sale**' and '**Owned**' called '**Buy**'
+* **Name**: '**Buy**'
+* **Calculations**:
+    * **Previous owner** = **Current owner**
+    * **Current owner** = **caller**. 
+* **Payment**: from **caller** to **Previous owner** with the value of **Price**
+
+:::note
+In this example we used the **Previous owner** as a transient (temporary) variable. The idea is that before the payment step is executed we set up the **Previous owner** so that we can use it in the next, payment step. This is needed because the caller of the method is set to **Current owner**.
+:::
+
+### Summary
+
+:::tip
+
+Try to add a third transition called 'Resell' going from 'Owned' back to 'For sale'. Hint: click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> on top of 'Owned' and change the target status to be 'For sale' instead. Add Price parameter and don't forget to restrict Access to 'Current owner'!
+
+:::
+
+Thats it, the workflow is now done! This is what it should look like if you added the optional third transition as well:
 ![Buy transition config](/img/screens/create_workflow_6.png) 
 
-## Deploying the workflow
+## Step 4. Deploy to blockchain
 
-### Choose network
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+  <source src="/vid/step4.mp4" type="video/mp4"></source>
+   <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
+  Your browser does not support the video tag.
+</video>
 
-### Deploy!
+Deploying your workflow to blockchain could not be easier. Just choose a blockchain - Aurora for our example - and hit **Deploy**!
+
+## Congratulations!
+
+Thats it, your first smart contract is now running on blockchain. To test it our Toolblox generates a simple user interface. Click **Run** to give it a test run.
+
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+  <source src="/vid/step5.mp4" type="video/mp4"></source>
+   <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
+  Your browser does not support the video tag.
+</video>
