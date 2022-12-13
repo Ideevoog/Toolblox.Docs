@@ -37,7 +37,7 @@ const FeatureList = [
         Tutorial to build and deploy a smart contract in 5 minutes.
         <br/>
         <br/>
-        <a href="/docs/tutorials/minute_kickstart/create_new_flow" class="button button--secondary">
+        <a href="/docs/tutorials/smart_contract_in_five_minutes" class="button button--secondary">
             Start tutorial
         </a>
       </>

@@ -1,8 +1,14 @@
 ---
 sidebar_position: 2
+title: 5 minute example
+sidebar_label: 5 minute example
+slug: smart_contract_in_five_minutes
+tags:
+  - Basics
+  - Getting started
 ---
 
-# How to create an NFT smart contract example
+# How to create an NFT smart contract in 5 minutes
 
 Let's go through a simple example and create a workflow to sell digital content aka NFT's.
 
@@ -85,13 +91,13 @@ A **transient** attribute is something which will not get saved - it is marely a
 
 ### Add states
 
-First, add these 2 **states** by clicking the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button. 
+First, add these 2 **states** by clicking the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15" icon="icon"/> button. 
 * **For sale**
 * **Owned**
 
 ### Add Mint transition
 
-Add an initial **transition** by clicking the first <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> button: ![Click button to add the inital transition](/img/screens/create_workflow_3.png) 
+Add an initial **transition** by clicking the first <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15" icon="icon"/> button: ![Click button to add the inital transition](/img/screens/create_workflow_3.png) 
 * **Name**: '**Mint**'
 * **Parameters**: **Name**, **Image**, **Price**
 * **Access**: **Restricted** to **Current owner**.
@@ -115,7 +121,7 @@ In this example we used the **Previous owner** as a transient (temporary) variab
 
 ### Optional: Add Resell transition
 
-Try to add a third transition called 'Resell' going from 'Owned' back to 'For sale'. Hint: click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg" width="15" height="15"/> on top of 'Owned' and change the target status to be 'For sale' instead. Add Price parameter and don't forget to restrict Access to 'Current owner'!
+Try to add a third transition called 'Resell' going from 'Owned' back to 'For sale'. Hint: click the <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/circle-plus.svg"  icon="icon" width="15" height="15"/> on top of 'Owned' and change the target status to be 'For sale' instead. Add Price parameter and don't forget to restrict Access to 'Current owner'!
 
 
 ### Summary

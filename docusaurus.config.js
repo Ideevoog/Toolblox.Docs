@@ -63,7 +63,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {to: '/docs/tutorials/minute_kickstart/create_new_flow', label: 'Tutorial', position: 'left'},
+          {to: '/docs/tutorials/smart_contract_in_five_minutes', label: 'Tutorials', position: 'left'},
           {to: '/docs/intro', label: 'Documentation', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: '5 minute tutorial',
-                to: '/docs/tutorials/minute_kickstart/create_new_flow',
+                to: '/docs/tutorials/smart_contract_in_five_minutes',
               },
               {
                 label: 'Docs',
