@@ -12,7 +12,7 @@ The Smart contract builder in Toolblox allows to compose smart contract workflow
 1. Use the move buttons to reorder the states.
 
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/builder_overview.webm" type="video/webm"></source>
   Your browser does not support the video tag.
 </video>

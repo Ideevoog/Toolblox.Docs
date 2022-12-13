@@ -18,7 +18,7 @@ As an example imagine a workflow for buying 3D prints (read [here](/docs/smart-c
 
 The order of the states can be set by moving them around as depicted here: 
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/state_reordering2.mp4" type="video/mp4"></source>
   Your browser does not support the video tag.
 </video>

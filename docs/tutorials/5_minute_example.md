@@ -38,7 +38,7 @@ In order to test our smart contract you would need to use a **faucet** to get a 
 
 ## Step 1. Create Workflow
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/step0.mp4" type="video/mp4"></source>
    <img src="/img/screens/create_workflow_1.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
@@ -56,7 +56,7 @@ Choose the **Workflow name** wisely. It needs to be globally unique because you 
 
 ## Step 2. Define the object
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/step1.mp4" type="video/mp4"></source>
    <img src="/img/screens/create_workflow_2.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
@@ -83,7 +83,7 @@ A **transient** attribute is something which will not get saved - it is marely a
 
 ## Step 3. Compose the flow
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/step3.mp4" type="video/mp4"></source>
    <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
@@ -131,7 +131,7 @@ Thats it, the workflow is now done! This is what it should look like if you adde
 
 ## Step 4. Deploy to blockchain
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/step4.mp4" type="video/mp4"></source>
    <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
@@ -143,7 +143,7 @@ Deploying your workflow to blockchain could not be easier. Just choose a blockch
 
 Thats it, your first smart contract is now running on blockchain. To test it our Toolblox generates a simple user interface. Click **Run** to give it a test run.
 
-<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" controls="controls">
+<video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/step5.mp4" type="video/mp4"></source>
    <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
