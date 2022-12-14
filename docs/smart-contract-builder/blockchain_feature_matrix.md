@@ -1,4 +1,0 @@
----
----
-
-# Blockchain feature matrix

@@ -6,7 +6,7 @@ sidebar_position: 20
 
 State represents a situation or a phase of an item. For example a Car might be in state Damaged and then move into a state Repaired through a transition named Repair. 
 
-As an example imagine a workflow for buying 3D prints (read [here](/docs/smart-contract-builder/items#real-world-example)). It starts with getting a price quote from the printhouse and ends with the print posted/sent out. The item in this case would be Printout and during the workflow it has four states: (Price) **Requested**, **Offer made**, **Paid** and **Shipped**. During a transition from state to state attributes can be set.
+As an example imagine a workflow for buying 3D prints (read [here](/docs/workflow-builder/items#real-world-example)). It starts with getting a price quote from the printhouse and ends with the print posted/sent out. The item in this case would be Printout and during the workflow it has four states: (Price) **Requested**, **Offer made**, **Paid** and **Shipped**. During a transition from state to state attributes can be set.
 
 
 <div class="wide">
