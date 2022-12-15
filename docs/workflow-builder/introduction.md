@@ -13,6 +13,6 @@ The Workflow builder in Toolblox allows to compose smart contract workflows with
 
 
 <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
-  <source src="/vid/builder_overview.webm" type="video/webm"></source>
+  <source src="/vid/builder_overview.mp4" type="video/mp4"></source>
   Your browser does not support the video tag.
 </video>
