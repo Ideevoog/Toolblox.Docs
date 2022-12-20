@@ -129,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Toolblox, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a class="footerLink" href="https://www.toolblox.net">Toolblox</a>. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
