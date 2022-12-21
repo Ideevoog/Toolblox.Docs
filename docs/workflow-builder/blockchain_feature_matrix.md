@@ -15,7 +15,7 @@ For various technical reasons all features are not yet supported on all testnet 
 | Invoice event            |**&#10003;**|**&#10003;**|**&#10003;**|**&#10003;**|**&#10003;**|  coming     |**&#10003;**|
 | 'Address' ('name, email address') attribute |**&#10003;**|**&#10003;**|**&#10003;**|**&#10003;**|**&#10005;**|  coming     |**&#10003;**|
 | ERC20 support             | USDTC, USDT| USDC.e, USDT, BUSD| USDC, EUROC, USDT, EURT| gUSDT, USDC.grv, gDAI|**&#10005;**| coming    | USDC, USDT|
-| ERC20 support (testnet)   | USDC     | coming     | USDC, EUROC     | coming     |**&#10005;**| coming    | jEUR, USDC| (
+| ERC20 support (testnet)   | USDC     | wNear     | USDC, EUROC     | coming     |**&#10005;**| coming    | jEUR, USDC| (
 | ERC721 native compatibility|**&#10003;**|**&#10003;**|**&#10003;**|**&#10003;**|**&#10005;**| coming   |**&#10003;**|
 | Wallet                   |MetaMask    |MetaMask    |MetaMask    |MetaMask    |Web         | TBD       |MetaMask    
 
