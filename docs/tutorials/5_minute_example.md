@@ -148,3 +148,9 @@ Thats it, your first smart contract is now running on blockchain. To test it our
    <img src="/img/screens/create_workflow_6.png" title="Your browser does not support the <video> tag"></img>
   Your browser does not support the video tag.
 </video>
+
+:::info
+
+If you wish to load the NFTs into any NFT Wallet, the contract needs to be made [ERC721 compatibile](/docs/workflow-builder/erc721_compatibility).
+
+:::

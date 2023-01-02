@@ -26,15 +26,40 @@ The main benefit of setting up ERC721 is compatibility with external systems.
 
 ## Set-up
 
+### Step 1. Set token symbol
+
+![MyTKN as symbol for my erc721 workflow](/img/screens/mytkn.png)
+
+### Step 2. Set up ownership scope
+
+A workflow might have serveral roles and several states. For uniquely identifyuing the *owner* in each state it is required to map states to roles:
+
+
 <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop" >
   <source src="/vid/erc721_compatibility.mp4" type="video/mp4"></source>
   Your browser does not support the video tag.
 </video>
 
-### Step 1. Set up ownership scope
+### Step 3. Choose ERC721 compatiblity
 
-A workflow might have serveral roles and several states. For uniquely identifyuing the *owner* in each state it is required to map states to roles:
+In the Deployment step, choose the ERC721 (NFT) compatibility. Thats it!
 
-### Step 2. Choose ERC721 compatiblity
+### Step 4. Configure NFT wallet
 
-In the Deployment step, choose the ERC721 (NFT) compatibility
+The contract is now ready and the NFTs visible in NFT wallets such as [MetaMask Mobile (iOS/Android)](https://metamask.io/download/). Check out [this resource](https://metamask.zendesk.com/hc/en-us/articles/360058238591-NFT-tokens-in-your-MetaMask-wallet) on how to add NFT's to Metamask Mobile.
+
+#### How to configure Metamask
+
+<figure>
+
+![Copy contract id from blockchain explorer](/img/screens/metamask_nft1.png)
+
+<figcaption>Add NFTs and copy contract address from blockchain explorer.</figcaption>
+</figure>
+
+<figure>
+
+![Add token to metamask](/img/screens/metamask_nft2.png)
+
+<figcaption>Configure Metamask with the contract address as NFTs.</figcaption>
+</figure>
