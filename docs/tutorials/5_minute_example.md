@@ -139,6 +139,37 @@ Thats it, the workflow is now done! This is what it should look like if you adde
 
 Deploying your workflow to blockchain could not be easier. Just choose a blockchain - Aurora for our example - and hit **Deploy**!
 
+## Troubleshooting
+
+In case of issues review the workflow Spec (click 'View spec' in deploy step) and double check it looks like the following:
+
+```
+Silvers test NFT store : Nft image :  : ;
+
+Id : integer(),
+Status : integer(),
+Name : string(),
+Previous owner : address(transient=yes,),
+Current owner : address(),
+Image : image(),
+Price : money(),;
+
+0:For sale:Current owner,
+1:Owned:Current owner;
+
+'' => 'For sale' : Mint (Name,Image,Price) + ASSERT_ACCESS(restricted=Current owner);
+'For sale' => 'Owned' : Buy () + PAY(Previous owner, Price, transitioncaller)+ CALCULATED(Previous owner = Current owner)+ CALCULATED(Current owner = caller);
+'Owned' => 'For sale' : Resell (Price) + ASSERT_ACCESS(restricted=Current owner);
+
+```
+
+Especially review the following:
+* 'Owner' attributes have 'User' type
+* Access restrictions have 'Current owner' as scope
+* Payment has 'Previous owner' as target
+
+In case of unresolved issue please contact support, we are more than happy to help!
+
 ## Congratulations!
 
 Thats it, your first smart contract is now running on blockchain. To test it our Toolblox generates a simple user interface. Click **Run** to give it a test run.
