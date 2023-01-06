@@ -304,24 +304,25 @@ Creating workflows and deploying to any blockchain is free. Toolblox provides co
 
 <div class="timeline">
 
-1. 2022 project **MVP**
-1. 2022 March. **Winner** ‘First Place’ and ‘Best use of Technology’ at Near Metabuild II hackathon
-1. 2022 summer. Market research and product development
-1. 2022 August: **Release of Workflow designer**
+1. 2022 February: **MVP**
+1. 2022 March: **Winner** ‘First Place’ and ‘Best use of Technology’ at Near Metabuild II hackathon
+1. 2022 summer: Market research and product development
+1. 2022 August: Release of **Workflow designer**
 1. 2022 August: **Winner** First place Tooling/Infrastructure at Polygon BUIDL IT hackathon
-1. 2022 September: **Release of DApp builder**
-1. 2022 December: **Release of ADA** ([Autonomous Decentralized Accountant](https://ada.toolblox.net/)) blockchain invoice generator
+1. 2022 September: Release of **DApp builder**
+1. 2022 December: Release of **ADA** ([Autonomous Decentralized Accountant](https://ada.toolblox.net/)) blockchain invoice generator
+1. 2022 December: Launch of **Toolblox Academy** learning resource
 1. 2023 January: **Public beta test** in partnership with [LNC](https://learnnear.club/)
 
 </div>
 
-## Roadmap
+<!-- ## Roadmap
 
 <div class="timeline">
 
 1. 2023 ??????
 
-</div>
+</div> -->
 
 ## Team
 
