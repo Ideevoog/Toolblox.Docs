@@ -83,13 +83,13 @@ article img:not([icon])
   display:block;
 }
 
-@media (min-width: 1400px)
+/* @media (min-width: 1400px)
 {
   article img:not([icon])
   {
     max-width: 80%;
   }
-}
+} */
 
 article .wide img
 {
