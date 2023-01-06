@@ -75,7 +75,7 @@ const config = {
         items: [
           {to: '/docs/tutorials/smart_contract_in_five_minutes', label: 'Tutorials', position: 'left'},
           {to: '/docs/intro', label: 'Documentation', position: 'left'},
-          // {to: '/whitepaper', label: 'Whitepaper', position: 'left'},
+          {to: '/whitepaper', label: 'Whitepaper', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
