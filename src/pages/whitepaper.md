@@ -168,7 +168,7 @@ ERC20 utility token with added functionality to store up-to-date workflow locati
 
 
 
-TBX also acts as a governance token and is used for voting. Some of the topics might include: setting of token fees, enahancements to Toolblox Spec and prioritization of developments.
+TBX also acts as a governance token and is used for voting. Some of the topics might include: setting of token fees, enhancements to Toolblox Spec and prioritization of developments.
 
 ## Team
 
