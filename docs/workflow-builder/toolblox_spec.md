@@ -10,6 +10,15 @@ The Toolblox Spec is a standard used to describe a workflow, specifically in the
 
 The Toolblox Spec is used as a standard for defining and implementing smart contract workflows in a variety of contexts, helping to ensure consistency and clarity in the specification and execution of these processes.
 
+### Benefits
+
+* **Human-readable**. Communicate contract flow with co-workers or partners via chat, email or other text-based mediums.
+* **Integrations**. Integration with AI chatbots such as GPT
+* **Import/export/backup/clone**. Easily transportable or savable as text document, email etc.
+* **Integrity verification**. Being able to verify that a contract on the chain does perform what it supposes to do. One can always run ‘Spec -> to smart contract code -> to bytecode’ transformation and compare it to the one deployed on the chain.
+* **Universal ABI** (Application Binary Interface). Standardized serialization of smart contracts instead of using a fragmented approach (each blockchain might have its own ABI format).
+
+
 
 ## Spec definition
 
