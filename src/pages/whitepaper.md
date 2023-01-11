@@ -32,7 +32,7 @@ Modelling Notation (BPMN) one step further making it highly usable as a communic
 * **On-chain business networks** Self-executing smart contracts allow for automatic action to be taken as soon as certain thresholds or business conditions are met, reducing both costs and time. Additionally, our smart contract workflows can reference each other and trigger events in other smart contracts, helping to save on integration costs and enabling the creation of interconnected business process networks.
 * **AI ready** Toolblox	uses a human-readable representation of a smart-contract workflow (Toolblox Spec) that can also be used to 
 facilitate communication with AI systems. For example to gain the ability to generate workflows from written paper contracts.
-* **Data ownership** The generated smart contract will be deployed using customers wallet so it will be under full ownership of the customer: this includes the workflow logic and any data it shall contain.
+* **Data ownership** The generated smart contracts are deployed using customers wallet so thet are under full ownership of the customer: this includes the workflow logic and any data it contains.
 * **Web3 ecosystem integration** ERC721 compatibility and using ERC20 tokens as payments enable businesses to take advantage of the wider DeFi ecosystem tools such as token insurance, collateralization, NFT portals, and fractionalization. Furthermore, decentralized social media integration is possible.
 
 ### Toolblox
@@ -74,7 +74,7 @@ Our platform is suitable for decentralized autonomous organizations looking to m
 1. 2022 February: **Prototype**
 1. 2022 March: **Winner** ‘First Place’ and ‘Best use of Technology’ at Near Metabuild II hackathon
 1. 2022 summer: Market research and product development
-1. 2022 August: Release of **Workflow designer**
+1. 2022 August: Release of **Workflow builder**
 1. 2022 August: **Winner** First place Tooling/Infrastructure at Polygon BUIDL IT hackathon
 1. 2022 September: Release of **DApp builder**
 1. 2022 December: Release of **ADA** ([Autonomous Decentralized Accountant](https://ada.toolblox.net/)) blockchain invoice generator
