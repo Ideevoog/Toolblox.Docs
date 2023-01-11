@@ -87,7 +87,7 @@ Our platform is suitable for decentralized autonomous organizations looking to m
 
 <div class="timeline">
 
-1. 2023 Q1: Public beta launch
+1. **2023** Q1: Public beta launch
 1. 2023 Q1: Seed investment secured
 1. 2023 Q1: First hires
 1. 2023 Q1: Test DEX rollout and launchpad testing
@@ -96,7 +96,7 @@ Our platform is suitable for decentralized autonomous organizations looking to m
 1. 2023 Q2: IDO
 1. 2023 Q3: Toolblox Widgets for web2 integration
 1. 2023 Q4: Toolblox notification engine
-1. 2024 Q1: Toolblox Upgrade and Migration tool
+1. **2024** Q1: Toolblox Upgrade and Migration tool
 1. 2024 Q2: Toolblox Bridge launch
 
 </div>
