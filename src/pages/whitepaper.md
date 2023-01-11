@@ -134,6 +134,7 @@ One of the key points in fulfilling our mission is creating business networks th
     * IPFS wrapper service
     * Printer service
 * TBX Token
+* TBX Token Bridge
 
 <div class="wide">
 
